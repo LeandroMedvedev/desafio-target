@@ -29,8 +29,8 @@ Para instalar e configurar o projeto, siga estas etapas:
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/projeto-estagio.git
-   cd projeto-estagio
+   git clone git@github.com:LeandroMedvedev/desafio-target.git
+   cd desafio-target
    ```
 
 2. **Instale as dependências**:
