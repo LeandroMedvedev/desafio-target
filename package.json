@@ -1,0 +1,42 @@
+{
+  "name": "desafio-target",
+  "version": "0.1.0",
+  "description": "Teste técnico https://targetsistemas.com.br/",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeandroMedvedev/desafio-target.git"
+  },
+  "keywords": [
+    "desafio",
+    "target"
+  ],
+  "author": "Leandro Medvedev <medvedevleandro@outlook.com>",
+  "licenses": [
+    {
+      "type": "MPL-2.0",
+      "url": "https://www.mozilla.org/en-US/MPL/2.0/"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/LeandroMedvedev/desafio-target/issues"
+  },
+  "homepage": "https://github.com/LeandroMedvedev/desafio-target#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
